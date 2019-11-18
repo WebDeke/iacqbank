@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+
+}
+
+h1{
+    font: bold 26px Roboto Slab;
+}
+
+h2{
+    font: bold 24px Roboto Slab;
+}
+
+h3{
+    font: bold 22px Roboto Slab;
+}
+
+h4{
+    font: bold 20px Roboto Slab;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+    display: block;
+}
+
+body{
+    width: 100%;
+    display:flex;
+}
+
+#big_wrapper{
+    /* border: 10px solid #99AAB5; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #23272A;
+}
+
+#top_header{
+    background-color: #2C2F33;
+    color: #FFF;
+    border-top: 2px solid #99AAB5;
+    border-bottom: 2px solid #99AAB5;
+    padding: 15px;
+    max-width: 100%;
+}
+
+#top_menu{
+    background: #7289DA;
+    color: white;
+    border-bottom: 2px solid #99AAB5;
+}
+
+#top_menu li{
+    display:inline-block;
+    list-style: none;
+    padding: 5px;
+    font: 14px Roboto;
+}
+
+#top_menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+#main_div{
+    display: flex;
+    flex-direction: row;
+}
+
+#main_section{
+    margin: 30px;
+    flex: 1;
+}
+
+#archive_header{
+    background: #7289DA;
+    color: white;
+    border: 2px solid #99AAB5;
+    padding: 5px;
+    text-align: center;
+}
+
+#archive_nav{
+    background: #7289DA;
+    color: white;
+    border: 2px solid #99AAB5;
+    text-align: center;
+}
+
+#archive_nav li{
+    display:inline-block;
+    list-style: none;
+    padding: 5px;
+    font: 14px Roboto;
+}
+
+#archive_nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+#headnav {
+    margin-bottom: 5px;
+}
+
+article{
+    background: #7289DA;
+    border: 2px solid #99AAB5;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+article header {
+    border-bottom: 2px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+article footer{
+    text-align: right;
+    font: 11px Roboto;
+}
+
+#about_section{
+    width: 30%;
+    margin: 20px 0px;
+    padding: 30px;
+    background: #99AAB5;
+    border-top: 2px solid #7289DA;
+    border-bottom: 2px solid #7289DA;
+    border-left: 2px solid #7289DA;
+}
+
+#the_footer{
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #99AAB5;
+    border-bottom: 2px solid #99AAB5;
+    background: #2C2F33;
+    color: #FFF;
+    font-size: 11px;
+}
